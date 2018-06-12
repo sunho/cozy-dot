@@ -78,7 +78,8 @@ imap jk <Esc>
 
 set number
 set ts=4
-set shiftwidth=4
+set shiftwidth=0
+autocmd Filetype yaml setlocal tabstop=2
 
 syntax enable
 if (has("termguicolors"))

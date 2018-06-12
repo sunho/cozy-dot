@@ -1,0 +1,4 @@
+FROM anapsix/alpine-java
+COPY auth.jar /home/auth.jar
+WORKDIR /home/data
+CMD ["java","-jar","/home/auth.jar", "http://cafe.naver.com/sdbx/7157"]

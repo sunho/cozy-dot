@@ -1,0 +1,46 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: djbot-deploy
+  namespace: bot
+  labels:
+    app: djbot
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: djbot
+  template:
+    metadata:
+      labels:
+        app: djbot
+        role: bot
+    spec:
+      containers:
+      - name: djbot
+        image: ksunhokim/djbot
+        volumeMounts:
+          - name: config
+            mountPath: "/go/src/github.com/sunho/sdbx-discord-dj-bot"
+      volumes:
+      - name: config
+        configMap:
+          name: djbot-config
+          items:
+          - key: config.yaml
+            path: config.yaml
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+ name: djbot-config
+ namespace: bot
+data:
+ config.yaml: |
+   delimitter: "!!"
+   discord_token: "DISCORD"
+   youtube_token: "YOUTUBE"
+   guild_id: "152746825806381056"
+   channel_id: "236873884283043842"
+   voice_channel_id: "399968882443550731"
+   request_wait: 60
