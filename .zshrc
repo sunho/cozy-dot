@@ -54,14 +54,17 @@ ZSH_THEME="agnoster"
 # Would you like to use another custom folder than $ZSH/custom?
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
-# Which plugins would you like to load? (plugins can be found in ~/.oh-my-zsh/plugins/*)
-# Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
-# Example format: plugins=(rails git textmate ruby lighthouse)
-# Add wisely, as too many plugins slow down shell startup.
-plugins=(
-  git
-)
 
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+setopt AUTO_PUSHD                  # pushes the old directory onto the stack
+setopt PUSHD_MINUS                 # exchange the meanings of '+' and '-'
+setopt CDABLE_VARS                 # expand the expression (allows 'cd -2/tmp')
+autoload -U compinit && compinit   # load + start completion
+zstyle ':completion:*:directory-stack' list-colors '=(#b) #([0-9]#)*( *)==95=38;5;12'
+alias k="kubectl"
+plugins=(git git-flow brew history node npm kubectl)
+source <(kubectl completion zsh)
 source $ZSH/oh-my-zsh.sh
 
 # User configuration
@@ -93,10 +96,8 @@ source $ZSH/oh-my-zsh.sh
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-setopt AUTO_PUSHD                  # pushes the old directory onto the stack
-setopt PUSHD_MINUS                 # exchange the meanings of '+' and '-'
-setopt CDABLE_VARS                 # expand the expression (allows 'cd -2/tmp')
-autoload -U compinit && compinit   # load + start completion
-zstyle ':completion:*:directory-stack' list-colors '=(#b) #([0-9]#)*( *)==95=38;5;12'
+export CC=/opt/rh/devtoolset-7/root/usr/bin/gcc
+export CPP=/opt/rh/devtoolset-7/root/usr/bin/cpp
+export CXX=/opt/rh/devtoolset-7/root/usr/bin/g++
+export PATH=/opt/rh/devtoolset-7/root/usr/bin:$PATH
+export PATH=/opt/rh/llvm-toolset-7/root/usr/bin:$PATH

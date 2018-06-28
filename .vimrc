@@ -9,6 +9,8 @@ Plug 'vim-syntastic/syntastic'
 Plug 'nsf/gocode', { 'rtp': 'vim', 'do': '~/.vim/plugged/gocode/vim/symlink.sh' }
 Plug 'Shougo/neocomplete.vim'
 Plug 'mhartington/oceanic-next'
+Plug 'https://gitlab.com/betseg/vim-dcrpc.git'
+Plug 'rhysd/vim-clang-format'
 
 call plug#end()
 
@@ -80,6 +82,7 @@ set number
 set ts=4
 set shiftwidth=0
 autocmd Filetype yaml setlocal tabstop=2
+autocmd Filetype groovy setlocal tabstop=2
 
 syntax enable
 if (has("termguicolors"))
@@ -88,3 +91,13 @@ endif
 colorscheme OceanicNext
 let g:oceanic_next_terminal_bold = 1
 let g:oceanic_next_terminal_italic = 1
+
+let g:dcrpc_autostart = 1
+
+let g:clang_format#style_options = {
+            \ "AccessModifierOffset" : -4,
+            \ "AllowShortIfStatementsOnASingleLine" : "true",
+            \ "AlwaysBreakTemplateDeclarations" : "true",
+            \ "Standard" : "C++11"}
+
+autocmd FileType c,cpp,objc :ClangFormatAutoEnable
