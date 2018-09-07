@@ -1,0 +1,42 @@
+{
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "g",
+                "p"
+            ],
+            "commands": [
+                "editor.action.previewDeclaration"
+            ]
+        },
+        {
+            "before": [
+                "g",
+                "h"
+            ],
+            "commands": [
+                "editor.action.referenceSearch.trigger",
+            ]
+        },
+    ],
+    "vim.useCtrlKeys": false,
+    "zenMode.hideStatusBar": false,
+    "zenMode.hideActivityBar": false,
+    "zenMode.hideTabs": false,
+    "zenMode.restore": true,
+    "latex-workshop.view.pdf.viewer": "tab",
+    "latex-workshop.latex.tools": [
+        {
+            "name": "latexmk",
+            "command": "latexmk",
+            "args": [
+                "-synctex=1",
+                "-interaction=nonstopmode",
+                "-pdf",
+                "%DOC%"
+            ]
+        }
+    ],
+    "window.menuBarVisibility": "default",
+    "breadcrumbs.enabled": false
+}
