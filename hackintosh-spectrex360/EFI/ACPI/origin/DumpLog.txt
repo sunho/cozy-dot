@@ -1,0 +1,168 @@
+4:303  0:182  Found BIOS RSDP at F0040
+4:303  0:000  Printing ACPI tables from RSDP F0040 ...
+4:303  0:000   F0040: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+4:303  0:000    (Xsdt: 8C50B0A8, Rsdt: 8C50B028)
+4:303  0:000    8C50B0A8: 'XSDT', 'SLIC-MPC', Rev: 1, Len: 204
+4:303  0:000    8C50B028: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 120
+4:303  0:000    Tables in Xsdt: 21
+4:303  0:000    0. 8C537BC0: 'FACP', 'SLIC-MPC', Rev: 5, Len: 268
+4:303  0:000        (Dsdt: 8C50B200, Facs: 8CE3BF80, XDsdt: 8C50B200, XFacs: 0)
+4:303  0:000        8C50B200: 'DSDT', '804E', Rev: 2, Len: 182716
+4:305  0:002        8CE3BF80: 'FACS', Ver: 2, Len: 64
+4:305  0:000    1. 8C537CD0: 'APIC', '804E', Rev: 3, Len: 132
+4:305  0:000    2. 8C537D58: 'FPDT', '804E', Rev: 1, Len: 68
+4:305  0:000    3. 8C537DA0: 'FIDT', '804E', Rev: 1, Len: 156
+4:305  0:000    4. 8C537E40: 'MCFG', '804E', Rev: 1, Len: 60
+4:305  0:000    5. 8C537E80: 'HPET', '804E', Rev: 1, Len: 56
+4:305  0:000    6. 8C537EB8: 'LPIT', '804E', Rev: 1, Len: 148
+4:305  0:000    7. 8C537F50: 'SSDT', '804E', Rev: 2, Len: 584
+4:305  0:000    8. 8C538198: 'SSDT', '804E', Rev: 2, Len: 4520
+4:305  0:000    9. 8C539340: 'SSDT', '804E', Rev: 2, Len: 1187
+4:305  0:000    10. 8C5397E8: 'DBGP', '804E', Rev: 1, Len: 52
+4:305  0:000    11. 8C539820: 'DBG2', '804E', Rev: 0, Len: 84
+4:305  0:000    12. 8C539878: 'SSDT', '804E', Rev: 2, Len: 36
+4:305  0:000    13. 8C5398A0: 'MSDM', 'SLIC-MPC', Rev: 3, Len: 85
+4:305  0:000    14. 8C5398F8: 'SSDT', '804E', Rev: 2, Len: 21612
+4:305  0:000    15. 8C53ED68: 'UEFI', '804E', Rev: 1, Len: 66
+4:305  0:000    16. 8C53EDB0: 'SSDT', '804E', Rev: 2, Len: 3699
+4:305  0:000    17. 8C53FC28: 'DMAR', '804E', Rev: 1, Len: 168
+4:305  0:000    18. 8C53FCD0: 'TPM2', '804E', Rev: 3, Len: 52
+4:305  0:000    19. 8C53FD08: 'ASF!', '804E', Rev: 32, Len: 165
+4:305  0:000    20. 8C53FDB0: 'BGRT', '804E', Rev: 1, Len: 56
+4:305  0:000    Tables in Rsdt: 21
+4:305  0:000    0. 8C50B178: 'FACP', 'SLIC-MPC', Rev: 2, Len: 132
+4:305  0:000        (Dsdt: 8C50B200, Facs: 8CE3BF40)
+4:305  0:000        8C50B200: 'DSDT', '804E', Rev: 2, Len: 182716
+4:308  0:002        8CE3BF40: 'FACS', Ver: 0, Len: 64
+4:308  0:000    1. 8C537CD0: 'APIC', '804E', Rev: 3, Len: 132
+4:308  0:000    2. 8C537D58: 'FPDT', '804E', Rev: 1, Len: 68
+4:308  0:000    3. 8C537DA0: 'FIDT', '804E', Rev: 1, Len: 156
+4:308  0:000    4. 8C537E40: 'MCFG', '804E', Rev: 1, Len: 60
+4:308  0:000    5. 8C537E80: 'HPET', '804E', Rev: 1, Len: 56
+4:308  0:000    6. 8C537EB8: 'LPIT', '804E', Rev: 1, Len: 148
+4:308  0:000    7. 8C537F50: 'SSDT', '804E', Rev: 2, Len: 584
+4:308  0:000    8. 8C538198: 'SSDT', '804E', Rev: 2, Len: 4520
+4:308  0:000    9. 8C539340: 'SSDT', '804E', Rev: 2, Len: 1187
+4:308  0:000    10. 8C5397E8: 'DBGP', '804E', Rev: 1, Len: 52
+4:308  0:000    11. 8C539820: 'DBG2', '804E', Rev: 0, Len: 84
+4:308  0:000    12. 8C539878: 'SSDT', '804E', Rev: 2, Len: 36
+4:308  0:000    13. 8C5398A0: 'MSDM', 'SLIC-MPC', Rev: 3, Len: 85
+4:308  0:000    14. 8C5398F8: 'SSDT', '804E', Rev: 2, Len: 21612
+4:308  0:000    15. 8C53ED68: 'UEFI', '804E', Rev: 1, Len: 66
+4:308  0:000    16. 8C53EDB0: 'SSDT', '804E', Rev: 2, Len: 3699
+4:308  0:000    17. 8C53FC28: 'DMAR', '804E', Rev: 1, Len: 168
+4:308  0:000    18. 8C53FCD0: 'TPM2', '804E', Rev: 3, Len: 52
+4:308  0:000    19. 8C53FD08: 'ASF!', '804E', Rev: 32, Len: 165
+4:308  0:000    20. 8C53FDB0: 'BGRT', '804E', Rev: 1, Len: 56
+4:308  0:000  Found UEFI Acpi 2.0 RSDP at 8C50B000
+4:308  0:000  Saving ACPI tables from RSDP 8C50B000 to EFI\CLOVER\ACPI\origin ...
+4:308  0:000   8C50B000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+4:308  0:000    (Xsdt: 8C50B0A8, Rsdt: 8C50B028)
+4:308  0:000    8C50B0A8: 'XSDT', 'SLIC-MPC', Rev: 1, Len: 204
+4:308  0:000    8C50B028: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 120
+4:308  0:000    Tables in Xsdt: 21
+4:308  0:000    0. 8C537BC0: 'FACP', 'SLIC-MPC', Rev: 5, Len: 268
+4:308  0:000        (Dsdt: 8C50B200, Facs: 8CE3BF80, XDsdt: 8C50B200, XFacs: 0)
+4:308  0:000        8C50B200: 'DSDT', '804E', Rev: 2, Len: 182716
+4:311  0:002        8CE3BF80: 'FACS', Ver: 2, Len: 64
+4:311  0:000    1. 8C537CD0: 'APIC', '804E', Rev: 3, Len: 132
+4:311  0:000    2. 8C537D58: 'FPDT', '804E', Rev: 1, Len: 68
+4:311  0:000    3. 8C537DA0: 'FIDT', '804E', Rev: 1, Len: 156
+4:311  0:000    4. 8C537E40: 'MCFG', '804E', Rev: 1, Len: 60
+4:311  0:000    5. 8C537E80: 'HPET', '804E', Rev: 1, Len: 56
+4:311  0:000    6. 8C537EB8: 'LPIT', '804E', Rev: 1, Len: 148
+4:311  0:000    7. 8C537F50: 'SSDT', '804E', Rev: 2, Len: 584
+4:311  0:000    8. 8C538198: 'SSDT', '804E', Rev: 2, Len: 4520
+4:311  0:000    9. 8C539340: 'SSDT', '804E', Rev: 2, Len: 1187
+4:311  0:000    10. 8C5397E8: 'DBGP', '804E', Rev: 1, Len: 52
+4:311  0:000    11. 8C539820: 'DBG2', '804E', Rev: 0, Len: 84
+4:311  0:000    12. 8C539878: 'SSDT', '804E', Rev: 2, Len: 36
+4:311  0:000    13. 8C5398A0: 'MSDM', 'SLIC-MPC', Rev: 3, Len: 85
+4:311  0:000    14. 8C5398F8: 'SSDT', '804E', Rev: 2, Len: 21612
+4:311  0:000    15. 8C53ED68: 'UEFI', '804E', Rev: 1, Len: 66
+4:311  0:000    16. 8C53EDB0: 'SSDT', '804E', Rev: 2, Len: 3699
+4:311  0:000    17. 8C53FC28: 'DMAR', '804E', Rev: 1, Len: 168
+4:311  0:000    18. 8C53FCD0: 'TPM2', '804E', Rev: 3, Len: 52
+4:311  0:000    19. 8C53FD08: 'ASF!', '804E', Rev: 32, Len: 165
+4:311  0:000    20. 8C53FDB0: 'BGRT', '804E', Rev: 1, Len: 56
+4:311  0:000    Tables in Rsdt: 21
+4:311  0:000    0. 8C50B178: 'FACP', 'SLIC-MPC', Rev: 2, Len: 132
+4:311  0:000        (Dsdt: 8C50B200, Facs: 8CE3BF40)
+4:311  0:000        8C50B200: 'DSDT', '804E', Rev: 2, Len: 182716
+4:314  0:002        8CE3BF40: 'FACS', Ver: 0, Len: 64
+4:314  0:000    1. 8C537CD0: 'APIC', '804E', Rev: 3, Len: 132
+4:314  0:000    2. 8C537D58: 'FPDT', '804E', Rev: 1, Len: 68
+4:314  0:000    3. 8C537DA0: 'FIDT', '804E', Rev: 1, Len: 156
+4:314  0:000    4. 8C537E40: 'MCFG', '804E', Rev: 1, Len: 60
+4:314  0:000    5. 8C537E80: 'HPET', '804E', Rev: 1, Len: 56
+4:314  0:000    6. 8C537EB8: 'LPIT', '804E', Rev: 1, Len: 148
+4:314  0:000    7. 8C537F50: 'SSDT', '804E', Rev: 2, Len: 584
+4:314  0:000    8. 8C538198: 'SSDT', '804E', Rev: 2, Len: 4520
+4:314  0:000    9. 8C539340: 'SSDT', '804E', Rev: 2, Len: 1187
+4:314  0:000    10. 8C5397E8: 'DBGP', '804E', Rev: 1, Len: 52
+4:314  0:000    11. 8C539820: 'DBG2', '804E', Rev: 0, Len: 84
+4:314  0:000    12. 8C539878: 'SSDT', '804E', Rev: 2, Len: 36
+4:314  0:000    13. 8C5398A0: 'MSDM', 'SLIC-MPC', Rev: 3, Len: 85
+4:314  0:000    14. 8C5398F8: 'SSDT', '804E', Rev: 2, Len: 21612
+4:314  0:000    15. 8C53ED68: 'UEFI', '804E', Rev: 1, Len: 66
+4:314  0:000    16. 8C53EDB0: 'SSDT', '804E', Rev: 2, Len: 3699
+4:314  0:000    17. 8C53FC28: 'DMAR', '804E', Rev: 1, Len: 168
+4:314  0:000    18. 8C53FCD0: 'TPM2', '804E', Rev: 3, Len: 52
+4:314  0:000    19. 8C53FD08: 'ASF!', '804E', Rev: 32, Len: 165
+4:314  0:000    20. 8C53FDB0: 'BGRT', '804E', Rev: 1, Len: 56
+4:314  0:000  Found UEFI Acpi 1.0 RSDP at 8C50B000
+4:314  0:000  Printing ACPI tables from RSDP 8C50B000 ...
+4:314  0:000   8C50B000: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+4:314  0:000    (Xsdt: 8C50B0A8, Rsdt: 8C50B028)
+4:314  0:000    8C50B0A8: 'XSDT', 'SLIC-MPC', Rev: 1, Len: 204
+4:314  0:000    8C50B028: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 120
+4:314  0:000    Tables in Xsdt: 21
+4:314  0:000    0. 8C537BC0: 'FACP', 'SLIC-MPC', Rev: 5, Len: 268
+4:314  0:000        (Dsdt: 8C50B200, Facs: 8CE3BF80, XDsdt: 8C50B200, XFacs: 0)
+4:314  0:000        8C50B200: 'DSDT', '804E', Rev: 2, Len: 182716
+4:317  0:002        8CE3BF80: 'FACS', Ver: 2, Len: 64
+4:317  0:000    1. 8C537CD0: 'APIC', '804E', Rev: 3, Len: 132
+4:317  0:000    2. 8C537D58: 'FPDT', '804E', Rev: 1, Len: 68
+4:317  0:000    3. 8C537DA0: 'FIDT', '804E', Rev: 1, Len: 156
+4:317  0:000    4. 8C537E40: 'MCFG', '804E', Rev: 1, Len: 60
+4:317  0:000    5. 8C537E80: 'HPET', '804E', Rev: 1, Len: 56
+4:317  0:000    6. 8C537EB8: 'LPIT', '804E', Rev: 1, Len: 148
+4:317  0:000    7. 8C537F50: 'SSDT', '804E', Rev: 2, Len: 584
+4:317  0:000    8. 8C538198: 'SSDT', '804E', Rev: 2, Len: 4520
+4:317  0:000    9. 8C539340: 'SSDT', '804E', Rev: 2, Len: 1187
+4:317  0:000    10. 8C5397E8: 'DBGP', '804E', Rev: 1, Len: 52
+4:317  0:000    11. 8C539820: 'DBG2', '804E', Rev: 0, Len: 84
+4:317  0:000    12. 8C539878: 'SSDT', '804E', Rev: 2, Len: 36
+4:317  0:000    13. 8C5398A0: 'MSDM', 'SLIC-MPC', Rev: 3, Len: 85
+4:317  0:000    14. 8C5398F8: 'SSDT', '804E', Rev: 2, Len: 21612
+4:317  0:000    15. 8C53ED68: 'UEFI', '804E', Rev: 1, Len: 66
+4:317  0:000    16. 8C53EDB0: 'SSDT', '804E', Rev: 2, Len: 3699
+4:317  0:000    17. 8C53FC28: 'DMAR', '804E', Rev: 1, Len: 168
+4:317  0:000    18. 8C53FCD0: 'TPM2', '804E', Rev: 3, Len: 52
+4:317  0:000    19. 8C53FD08: 'ASF!', '804E', Rev: 32, Len: 165
+4:317  0:000    20. 8C53FDB0: 'BGRT', '804E', Rev: 1, Len: 56
+4:317  0:000    Tables in Rsdt: 21
+4:317  0:000    0. 8C50B178: 'FACP', 'SLIC-MPC', Rev: 2, Len: 132
+4:317  0:000        (Dsdt: 8C50B200, Facs: 8CE3BF40)
+4:317  0:000        8C50B200: 'DSDT', '804E', Rev: 2, Len: 182716
+4:320  0:002        8CE3BF40: 'FACS', Ver: 0, Len: 64
+4:320  0:000    1. 8C537CD0: 'APIC', '804E', Rev: 3, Len: 132
+4:320  0:000    2. 8C537D58: 'FPDT', '804E', Rev: 1, Len: 68
+4:320  0:000    3. 8C537DA0: 'FIDT', '804E', Rev: 1, Len: 156
+4:320  0:000    4. 8C537E40: 'MCFG', '804E', Rev: 1, Len: 60
+4:320  0:000    5. 8C537E80: 'HPET', '804E', Rev: 1, Len: 56
+4:320  0:000    6. 8C537EB8: 'LPIT', '804E', Rev: 1, Len: 148
+4:320  0:000    7. 8C537F50: 'SSDT', '804E', Rev: 2, Len: 584
+4:320  0:000    8. 8C538198: 'SSDT', '804E', Rev: 2, Len: 4520
+4:320  0:000    9. 8C539340: 'SSDT', '804E', Rev: 2, Len: 1187
+4:320  0:000    10. 8C5397E8: 'DBGP', '804E', Rev: 1, Len: 52
+4:320  0:000    11. 8C539820: 'DBG2', '804E', Rev: 0, Len: 84
+4:320  0:000    12. 8C539878: 'SSDT', '804E', Rev: 2, Len: 36
+4:320  0:000    13. 8C5398A0: 'MSDM', 'SLIC-MPC', Rev: 3, Len: 85
+4:320  0:000    14. 8C5398F8: 'SSDT', '804E', Rev: 2, Len: 21612
+4:320  0:000    15. 8C53ED68: 'UEFI', '804E', Rev: 1, Len: 66
+4:320  0:000    16. 8C53EDB0: 'SSDT', '804E', Rev: 2, Len: 3699
+4:320  0:000    17. 8C53FC28: 'DMAR', '804E', Rev: 1, Len: 168
+4:320  0:000    18. 8C53FCD0: 'TPM2', '804E', Rev: 3, Len: 52
+4:320  0:000    19. 8C53FD08: 'ASF!', '804E', Rev: 32, Len: 165
+4:320  0:000    20. 8C53FDB0: 'BGRT', '804E', Rev: 1, Len: 56
